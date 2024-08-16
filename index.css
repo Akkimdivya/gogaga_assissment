@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f8f9fa;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.nav-link {
+    font-weight: 500;
+    margin-right: 15px;
+}
+img{
+    width: 10vw;
+}
+.hero-section {
+    background-image: url('https://i.natgeofe.com/n/aab32027-1aed-409e-b7e1-d70afaac45d3/1109.jpg');
+    background-size: cover;
+    background-position: center;
+    padding: 150px 0;
+}
+
+.hero-section h1 {
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+.search-form {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.search-form .form-label {
+    font-weight: 500;
+}
+
+.search-form .form-control,
+.search-form .form-select {
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.search-form .btn-primary {
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+.shadow {
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
